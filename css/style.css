@@ -1,0 +1,844 @@
+#overlay {
+  font-family: monospace;
+  background: #f0f0f0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.container {
+  position: fixed;
+  top: 50%;
+  left:64%;
+  transform: translate(-50%, -50%);
+}
+.loadtext {
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  animation: fadeinout 1.5s ease-in-out infinite;
+  font-size: 25px;
+}
+.spinner {
+  border: solid 25px #fff;
+  border-top: solid 25px #0088ff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation: spin 1s linear infinite;
+}
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.header .navbar-toggler{
+  margin: 0 0 0 0;
+  color:#fff;
+}
+
+.navbar ul{
+  margin-top:0;
+}
+
+.header a{
+  font-size:1.000em;
+}
+
+.showcase{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/showcase.jpg);
+  background-attachment:fixed;
+  background-size: 100% 100%;
+}
+
+.showcase .p1 {
+  font-size:1.563em;
+  text-align:center;
+  padding: 22% 0 0 0;
+}
+
+.showcase h1 {
+  text-align:center;
+  margin-top:;
+}
+
+.showcase h2 {
+  text-align:center;
+}
+
+.showcase p{
+  font-family:corbel; 	
+  color:#fff;
+  text-align:center;
+  font-size:1.563em;
+  margin-bottom:;
+}
+
+.aboutus-head,.aboutus{
+  background-color:#f2f5f8;
+}
+
+.aboutus-head h2{
+  padding-top:3%;
+}
+
+.aboutus #myimg{
+  margin: 3% 0 3% 0;
+  border: 10px solid grey;
+}
+
+.aboutus p{
+  padding-top:5%;
+}
+
+.aboutus .btn{
+  color:black;
+  background:none;
+  border: 1px solid black;
+  margin: 0 0 5% 33%;
+}
+
+.aboutus .btn:hover{
+  background-color:grey;
+  color: #fff;
+}
+
+.skills-head,.myskills{
+  background-color:#f2f5f8; 
+}
+
+.skills-head h2{
+  padding-top:3%;
+}
+
+.myskills h2{
+  font-size:1.375em;
+  padding:2% 0 0 0;	
+}
+
+.myskills .progress-bar{
+  font-size:15px;
+  color:white;
+  background-color:silver;
+  font-weight: bold;
+}
+
+.progress{
+  margin-bottom:6%;
+}
+
+.projects-heading,.work{
+  background-color:#f2f5f8;
+}
+
+.projects-heading h2{
+  padding-top:3%;
+}
+
+.myprojects{
+ margin:1% 0 5% 0;
+}
+
+.myprojects .card{
+ width:100%;
+}
+
+.inner{
+  overflow:hidden; 
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.card-title{
+  font-size:25px;
+}
+
+.card-text{
+  font-size:17px;
+}
+
+.myprojects .btn{
+  font-family: corbel;
+  font-size: 18px;
+  color:black;
+  border: 1px solid black;
+  background:none;
+}
+
+.myprojects .btn:hover{
+  background-color:grey;
+  color: #fff;
+}
+
+.design-head,.grwork{
+  background-color:#1F2235; 
+}
+
+.design-head h2{
+  padding-top:2%; 
+}
+
+.grprojects{
+ margin:2% 0 5% 0;
+}
+
+.card{
+ width:13 rem;
+}
+
+.inner{
+  overflow:hidden; 
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.card-title{
+  font-size:25px;
+}
+
+.card-text{
+  font-size:17px;
+}
+
+.card{
+ width: 18rem;
+}
+
+.inner{
+  overflow:hidden; 
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.card-title{
+  font-size:25px;
+}
+
+.card-text{
+  font-size:17px;
+}
+
+
+#frmdiv,.mycontact,.myinfo{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/contact.jpg);
+  background-attachment:fixed;
+  background-size: 100% 100%;
+}
+
+.contact-head h2{
+  padding-top:3%;
+}
+
+.form-group .btn{
+  font-family: corbel;
+  background: none;
+  border:1px solid #fff;
+  color:#fff;
+}
+
+.error{
+  color: #fff;
+}
+
+.form-group .btn:hover{
+  background-color:black;
+  color:#fff;
+}
+
+.mycontact h2{
+  padding-top:8%;
+}
+
+.mycontact ul li{
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 0 0 3%;
+}
+
+.mycontact ul{
+  text-decoration: none;
+  color: white;
+  margin: 0 0 0 13%;
+}
+
+.mycontact ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.mycontact ul li a:hover{
+  color:#FFC576;
+}
+
+.mycontact iframe{
+	margin: 5% 0 5% 0;
+}
+
+@media only screen and (min-width:375px)
+{
+
+.container{
+left:70%;
+}
+
+.loadtext {
+left: 31%;
+}
+
+.aboutus .btn{
+  margin: 0 0 5% 35%;	
+}
+
+.education{
+  margin: 20% 0 2% 0;
+}
+
+.education img{
+  margin: 20% 0 0 6%;
+}
+
+.education h4,h5,h6{
+  margin: -41% 0 0 0;
+}
+
+.mycontact ul{
+  margin: 0 0 0 18%;
+}
+
+.mycontact iframe{
+	margin: 5% 0 5% 7%;
+}
+
+}
+
+
+@media only screen and (min-width:425px)
+{
+
+.container{
+left:75%;
+}
+
+.loadtext {
+left: 27%;
+}
+
+.aboutus .btn{
+margin: 0 0 5% 37%;	
+}
+
+.education{
+  margin: 20% 0 0 0;
+}
+
+.education img{
+ margin: 16% 0 0 12%;
+}
+
+.education h4,h5,h6{
+  margin: -35% 0 0 0;
+}
+
+.card{
+ width: 24.5rem;
+}
+
+.mycontact ul{
+  margin: 0 0 0 21%;
+}
+
+.mycontact iframe{
+margin: 5% 0 5% 12%;
+}
+
+}
+
+
+@media only screen and (min-width:768px)
+{
+
+.container{
+ left:82%;
+}
+
+.loadtext {
+ left: 16%;
+}	
+
+.showcase .p1 {
+ padding: 10% 0 3% 0;
+}
+
+.showcase h1 {
+ margin-top:0;
+}
+
+.showcase p{
+ margin-bottom:0;
+}
+
+.showcase img{
+ height: 380px;
+ margin-top: 17%;
+}
+
+.aboutus-head h2,.education-head h2,.skills-head h2,.projects-head h2,.contact-head h2{
+padding-top:2%;}
+
+.aboutus img{
+  height: 590px;
+  margin:1% 0 5% 0; 
+}
+
+.aboutus p{
+  padding-top:1%;
+}
+
+.aboutus .btn{
+margin: 0 0 5% 36%;	
+}
+
+.education{
+  height: 340px;
+  margin: 4% 0 0 5.5%;
+}
+
+.education img{
+  margin: 40% 0 0 -2%;
+}
+
+.education h4,h5,h6{
+  margin: -48% 0 0 0;
+}
+
+.myprojects{
+ margin:0.5% 0 2% 0;
+}
+
+.card{
+ width:22rem;
+ margin-top: 5%;
+}
+
+.mycontact h2
+{
+  margin-top:-6%;
+}
+
+.mycontact ul li{
+  font-size: 30px;
+}
+
+.mycontact ul{
+  margin: 13% 0 9% 17%;
+}
+
+.mycontact iframe{
+margin: 7% 0 5% 15%;
+}
+
+}
+
+
+@media only screen and (min-width:1024px)
+{
+
+.container{
+left:87%;
+}
+
+.loadtext {
+left: 12%;
+}	
+
+.navbar ul{
+margin:0 0 0 14%;
+}
+
+.navbar ul li{
+margin:0 0 0 5%;
+}
+
+.showcase .p1 {
+margin: 2% 0 0 0;
+}
+
+.showcase p{
+text-align:center;
+padding:0 0 4% 0; 
+}
+
+.aboutus h2{
+  padding:3% 0 3% 0;
+}
+
+.aboutus #myimg{
+  margin:0 0 0 7%;
+}
+
+.aboutus p{
+  padding-top:3%;
+}
+
+.aboutus .p2{
+padding-top:8%;  
+}
+
+.aboutus .btn{
+margin: 2% 0 4% 40.2%;	
+}
+
+.education{
+  height: 300px;
+  margin: 7% 0 0 5.5%;
+}
+
+.education img{
+  margin: 20% 0 0 12%;
+}
+
+.education h4,h5,h6{
+  margin: -36% 0 0 0;
+}
+
+.mycontact label{
+margin-left:2%;	
+}
+
+.mycontact input[type=text]
+{
+margin-left: 2%;
+}
+
+.mycontact input[type=email]{
+margin-left:2%;
+}
+
+.mycontact textarea{
+margin-left: 2%;
+}
+
+.error{
+  padding-left: 2%;
+}
+
+.mycontact .btn{
+margin-left: 2%;
+}
+
+.mycontact h2{
+  padding-top:7%;
+}
+
+.mycontact ul{
+  margin: 11% 0 7% 24%;
+}
+
+.mycontact iframe{
+margin: 5% 0 5% 21%;
+}
+
+}
+
+
+@media only screen and (min-width:1300px)
+{
+
+  .container{
+  left:86%;
+}
+
+  .loadtext {
+  left: 10%;
+} 
+
+  .navbar ul{
+  margin:0 0 0 19%;
+}
+
+  .aboutus #myimg{
+  margin-left:28%;
+  height: 480px;
+}
+
+
+  .showcase .p1 {
+  padding: 7% 0 1% 3%;
+}
+
+  .showcase h1{  
+  margin-left:4%; 
+}
+
+ .showcase h2{
+ margin-left:4%; 
+}
+
+ .showcase p{
+ margin:1.2% 0 0 4%; 
+}
+
+.aboutus img{
+  margin:1% 0 0 0; 
+}
+
+.aboutus .p2{
+padding-top:5%;  
+}
+
+.aboutus .btn{
+ margin: 3% 0 0 40.2%; 
+}
+
+.education{
+  margin: 6% 0 0 5.5%;
+}
+
+.education img{
+  margin: 13% 0 0 19%;
+}
+
+.education h4,h5,h6{
+  margin: -34% 0 0 0;
+}
+
+.card{
+ width:25rem;
+}
+
+.mycontact ul{
+  margin: 5% 0 7% 28%;
+}
+
+.mycontact iframe{
+margin: 5% 0 5% 27%;
+}
+
+}
+
+
+@media only screen and (min-width:1366px)
+{
+  .container{
+  left:83%;
+}
+
+  .loadtext {
+  left: 10%;
+} 
+
+  .navbar ul{
+  margin:0 0 0 19%;
+}
+
+   .showcase .p1 {
+  padding:5% 0 1% 3%;
+}
+
+  .showcase h1{  
+  margin-left:4%; 
+}
+
+ .showcase h2{
+ margin-left:4%; 
+}
+
+ .showcase p{
+ margin:1% 0 0 4%; 
+}
+
+.aboutus .btn{
+ margin: 5% 0 0 42.5%; 
+}
+
+.education img{
+  margin: 12% 0 0 21%;
+}
+
+.education h4,h5,h6{
+  margin: -32% 0 0 0;
+}
+
+.card{
+ width:26.5rem;
+}
+
+.mycontact ul{
+  margin: 5% 0 7% 28%;
+}
+
+.mycontact iframe{
+margin: 4% 0 5% 29%;
+}
+
+}
+
+
+
+@media only screen and (min-width:1440px)
+{
+.container{
+left:83%;
+}
+
+.loadtext {
+left:10%;
+}	
+
+.navbar ul{
+margin:0 0 0 22%;
+}
+
+.showcase .p1 {
+  padding: 10% 0 0 0;
+}
+
+.showcase h1{
+margin:0 0 1% 0; 
+}
+
+.showcase h2{
+margin:-1% 0 0 0; 
+}
+
+.showcase p{
+margin:0 0 8% 0; 
+}
+
+.showcase img{
+margin:12% 0 0 11%;
+}
+
+.projects-heading h2{
+  padding-top:0;
+}
+
+.mycontact label{
+
+margin-left:4%;	
+}
+
+.mycontact input[type=text]
+{
+margin-left:2%;
+}
+
+.mycontact textarea{
+margin-left:2%;	
+}
+
+.mycontact .btn{
+margin-left:2%;
+}
+
+.mycontact h2{
+  padding-top:7%;
+}
+
+.mycontact ul{
+  margin: 9% 0 7% 29.5%;
+}
+
+.mycontact iframe{
+margin: 2% 0 5% 30%;
+}
+
+}
+
+
+@media only screen and (min-width:1920px)
+{
+.container{
+left:75%;
+}
+
+.header a{
+  font-size:1.200em;
+}
+
+.navbar ul{
+margin:0 0 0 35%;
+}
+
+.text-warning{
+  font-size:23px;
+}
+
+.card-text{
+  font-size:20px;
+}
+
+.card-body .btn{
+  font-size: 24px;
+}
+
+.mycontact #txtname, #txtphone, #txtemail, #ta_msg
+{
+  margin-left:10px;
+}
+
+.form-group .btn
+{
+  margin-left:10px;
+}
+
+.mycontact h2{
+  padding-top:8%;
+}
+
+.mycontact ul{
+  margin: 4% 0 7% 33%;
+}
+
+.mycontact iframe{
+margin: 2% 0 5% 34%;
+}
+
+.footer p {
+  font-size:25px;
+}
+
+}
+
+
+
+
+
+
