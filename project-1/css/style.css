@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.projectconcept h1{
+	font-family:Adobe Gothic Std;
+	font-size:25px;
+	margin-top: 2%;
+}
+
+.projectconcept p{
+	font-family:Rockwell;
+	text-align: justify;
+	font-size:15px;
+	margin-top: 2%;
+}
+
+#vizbutton
+{
+  font-family: corbel;
+  border:1px solid #fff;
+  color:#000;
+  background-color:#FDF0F0;
+  margin: 0 0 4% 26%;
+}
+
+.projectprocess h2
+{
+	font-family:Adobe Gothic Std;
+	font-size:25px;
+	margin-top: 2%;
+}
+
+.projectprocess p{
+	font-family:Rockwell;
+	text-align: justify;
+	font-size:15px;
+	margin-top: 2%;
+}
+
+.projectprocess ul
+{
+	font-size: 15px;
+	margin: 0 0 0 6%;
+}
+
+.inherenceproject h2
+{
+	font-family:Adobe Gothic Std;
+	font-size:25px;
+	margin-top: 2%;
+}
+
+.inherenceproject p
+{
+	font-family:rockwell;
+	font-weight:bold;
+}
+
+#inherencepoints ul
+{
+	margin: 0 0 0 5%;
+	font-size: 15px;
+}
+
+
+#inherencepoints li
+{
+	margin: 0 0 0 5%;
+	font-size: 15px;
+}
+
+.footer end
+{
+	padding: 2% 0 2% 0;
+}
+
+@media only screen and (min-width:425px)
+{
+
+#vizbutton
+{
+	margin: 0 0 4% 31%;
+}
+
+}
+
+@media only screen and (min-width:768px)
+{
+
+.projectprocess ul
+{
+	margin: 0 0 0 45%;
+}
+
+
+#vizbutton
+{
+	margin: 0 0 4% 40%;
+}
+
+}
+
+
+@media only screen and (min-width:1024px)
+{
+
+.projectconcept p{
+	font-size:20px;
+}
+
+.projectprocess ul
+{
+	margin: 0 0 0 45%;
+	font-size:20px;
+}
+
+.projectprocess p{
+	font-size:19px;
+}
+
+.inherenceproject p{
+	font-size:19px;
+}
+
+#inherencepoints li
+{
+	font-size: 20px;
+}
+
+
+#vizbutton
+{
+	margin: 0 0 4% 42%;
+}
+
+}
+
+
+@media only screen and (min-width:1300px)
+{
+
+.projectprocess ul
+{
+	margin: 0 0 0 47%;
+}
+
+#vizbutton
+{
+	margin: 0 0 4% 44%;
+}
+
+}
+
+@media only screen and (min-width:1920px)
+{
+
+.projectconcept p{
+	font-size:20px;
+}
+
+.inherenceproject p{
+	font-size:20px;
+}
+
+.projectprocess p{
+	font-size:20px;
+	text-align: center;
+}
+
+.aboutproject #line
+{
+	width:16%;
+	margin-left: 42%;
+}
+
+.projectprocess ul
+{
+	margin: 0 0 0 48%;
+}
+
+.projectprocess p{
+	font-size:18px;
+}
+
+#vizbutton
+{
+	font-size: 23px;
+	margin: 0 0 4% 46%;
+}
+
+.end p
+{
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
